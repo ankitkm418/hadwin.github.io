@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/harsh.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Registration</title>
+</head>
+<body>
+    <marquee><b>Registered New Users</b></marquee>
+    <form class="r">
+        <img src="assets/img/2.png">
+        <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Registred Form</h2>
+        <label for="fname"><b>First name:</b></label>
+        <input type="text" id="fname" name="fname" placeholder="Capital Character"><br>
+        <label for="lname"><b>Last name:</b></label>
+        <input type="text" id="lname" name="lname" placeholder="Capital Character" ><br>
+         <label for="E-mail"><b>E-mail:</b></label>
+        <input type="text" id="E-mail" name="name" placeholder="@gmail.com" class="m"><br>           
+        <label for="course"><b>Course:</b></label>
+        <input type="text" id="Course" name="character" placeholder="Study"class="m"><br>   
+        <label for="date"><b>DOB:</b></label>
+        <input type="date" id="date" name="character" placeholder="year"class="m"><br>               
+        <label for="pass"><b>Password:</b></label>
+        <input type="password"
+         id="myInput" placeholder="8 characters minimum"><br>
+        <input type="checkbox" onclick="myFunction()"><b>Show Password</b> <br>
+           <script>
+            function myFunction() {
+              var x = document.getElementById("myInput");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+            </script>
+        <label for="gender"><b>Gender:</b></label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male"><b>Male </b></label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female"><b>Female</b></label>
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="others"><b>Others</b></label> <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"><br> <br>
+        <a href="http://www.facebook.com" class="e">Sign Up With Facebook</a>
+
+    </form> 
+         
+     
+</body>
+</html>
