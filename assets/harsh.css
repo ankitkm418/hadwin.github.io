@@ -1,0 +1,94 @@
+body{
+margin:0 auto;
+padding:0px;
+}
+form{
+font-size:22px;
+}
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+padding: 20px;
+margin-top: 179px;
+width: 65%;
+}
+
+td, th {
+border: 1px solid black;
+padding:8px;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tr:nth-child(even) {
+background-color:#dddd;
+}
+label, input{
+margin:5px auto;
+font-size: 25px;
+}
+.center {
+margin:0 auto;
+background-color: cyan;
+}
+.r{
+
+color:black;
+background-color: cornsilk;
+text-align:center;
+font-family:italic black;
+display:block;
+}
+.m{
+    margin-right: -40px;
+}
+
+.c{
+background-image: url('./img/1.jpg');
+color:black;
+text-align:center;
+font-family:italic black;
+display:block;
+}
+.c1{
+text-align:center;background-color: darkblue;
+color: #fff;
+font-size: 20px;
+padding: 8px 20px;
+font-family: sans-serif;
+}
+.c2{
+color: white;
+font-size: 20px;
+padding-right: 30px;
+padding-left: 60px;
+font-family: sans-serif;
+}
+.c21{
+color: blue;
+font-family: sans-serif;
+float: right;
+margin-right: 30%;
+margin-top: -41px;
+
+}
+.c3{
+width: 1220px;
+margin:0px auto;
+}
+.c4{
+width: 1220px;
+margin:20px auto;
+}
+.h1{
+color:red;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+.e{
+background-color:blue;
+color: #fff;
+font-size: 25px;
+padding: 8px 20px;
+font-family: sans-serif;
+}
